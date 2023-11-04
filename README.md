@@ -1,4 +1,36 @@
-<img src="image.svg"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bgGradient)" />
+  
+  <!-- Text Path for Name -->
+  <text x="50%" y="40%" font-family="Verdana" font-size="35" fill="#ffffff" text-anchor="middle">
+    <textPath xlink:href="#nameTyping">
+      Your Name
+      <animate attributeName="startOffset" from="0" to="100%" begin="0s" dur="1.5s" repeatCount="1" fill="freeze" />
+    </textPath>
+  </text>
+  
+  <!-- Text Path for Greeting -->
+  <text x="50%" y="50%" font-family="Verdana" font-size="30" fill="#ffffff" text-anchor="middle">
+    <textPath xlink:href="#greetingTyping">
+      Hello! How are you doing? 👋
+      <animate attributeName="startOffset" from="0" to="100%" begin="1.5s" dur="1.5s" repeatCount="1" fill="freeze" />
+    </textPath>
+  </text>
+
+  <!-- Define Text Paths -->
+  <defs>
+    <path id="nameTyping" d="M 0,0 H 1000" />
+    <path id="greetingTyping" d="M 0,0 H 1000" />
+  </defs>
+</svg>
+
 
 ### :space_invader: &nbsp;About Me
 
