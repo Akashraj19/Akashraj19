@@ -33,7 +33,7 @@
   <br/>
 
 ![Java](https://img.shields.io/badge/JAVA-007396.svg?&style=flat&logo=java&logoColor=white)&nbsp;
-![Python](https://img.shields.io/badge/Python-039BE5.svg?&style=flat&logoColor=white)&nbsp;
+![Python]<i class="fa-brands fa-python fa-2xs"></i>;
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-039BE5.svg?&style=flat&logoColor=white)&nbsp;
 ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-039BE5.svg?&style=flat&logoColor=white)&nbsp;
 ![Git](https://img.shields.io/badge/GIT-%23F05033.svg?&style=flat&logo=git&logoColor=white)&nbsp;
