@@ -1,6 +1,6 @@
 # Hi, I'm Akashraj S👋🏾 👩🏾‍💻
 
-<img src="KK.png" alt="banner that says Monica Powell - software engineer, content creator and community organizer alongside a cartoon illustration of Monica">
+<img src="KK.png" alt="banner ">
 
 ### :space_invader: &nbsp;About Me
 
