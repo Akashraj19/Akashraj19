@@ -97,5 +97,5 @@ blockchain, cryptocurrencies, cryptography, bitcoin, ethereum
 
 <p align="right">
 <img src="https://komarev.com/ghpvc/?username=Akashraj19&style=plastic&label=Views"><img>
-<img src="https://badges.pufler.dev/visits/Akashraj19?color=black&logo=github" />
+<img src="https://badges.pufler.dev/visits/Akashraj19/Akashraj19?color=black&logo=github" />
 </p>
