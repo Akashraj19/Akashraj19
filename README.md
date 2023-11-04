@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
   <!-- Background Gradient -->
   <defs>
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -8,27 +8,32 @@
   </defs>
   <rect width="100%" height="100%" fill="url(#bgGradient)" />
   
-  <!-- Text Path for Name -->
-  <text x="50%" y="40%" font-family="Verdana" font-size="35" fill="#ffffff" text-anchor="middle">
-    <textPath xlink:href="#nameTyping">
-      Your Name
-      <animate attributeName="startOffset" from="0" to="100%" begin="0s" dur="1.5s" repeatCount="1" fill="freeze" />
-    </textPath>
+  <!-- Text for Name -->
+  <text x="50%" y="40%" font-family="Verdana" font-size="35" fill="#ffffff" text-anchor="middle" id="nameText">
+    Hi... I am AKashRaj S an dedicated Data Scientist.
   </text>
   
-  <!-- Text Path for Greeting -->
-  <text x="50%" y="50%" font-family="Verdana" font-size="30" fill="#ffffff" text-anchor="middle">
-    <textPath xlink:href="#greetingTyping">
-      Hello! How are you doing? 👋
-      <animate attributeName="startOffset" from="0" to="100%" begin="1.5s" dur="1.5s" repeatCount="1" fill="freeze" />
-    </textPath>
+  <!-- Text for Greeting -->
+  <text x="50%" y="50%" font-family="Verdana" font-size="30" fill="#ffffff" text-anchor="middle" id="greetingText">
+    Hello! How are you doing? 👋
   </text>
 
-  <!-- Define Text Paths -->
-  <defs>
-    <path id="nameTyping" d="M 0,0 H 1000" />
-    <path id="greetingTyping" d="M 0,0 H 1000" />
-  </defs>
+  <!-- Define CSS Animations -->
+  <style>
+    @keyframes typingAnimation {
+      from { visibility: hidden; }
+      to { visibility: visible; }
+    }
+
+    #nameText, #greetingText {
+      visibility: hidden;
+      animation: typingAnimation 1.5s forwards 0s;
+    }
+
+    #greetingText {
+      animation-delay: 1.5s;
+    }
+  </style>
 </svg>
 
 
