@@ -53,9 +53,9 @@ if __name__ == '__main__':
 
 ```
 
-<a href="https://gd03champ.web.app/">
+<a href="https://akashraj19.github.io/">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=gd03champ&hide=prs&rank_icon=github&show_icons=true&theme=tokyonight" />
 </a>
-<a href="https://gd03champ.web.app/">
+<a href="https://akashraj19.github.io/">
   <img height=200 width=275 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gd03champ&size_weight=0.7&count_weight=0.7&theme=dark#gh-dark-mode-only&exclude_repo=camps,gd03champ.github.io,quadra,itsherotime&layout=compact&card_width=400" />
 </a>
