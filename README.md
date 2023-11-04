@@ -1,41 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
-  <!-- Background Gradient -->
-  <defs>
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <rect width="100%" height="100%" fill="url(#bgGradient)" />
-  
-  <!-- Text for Name -->
-  <text x="50%" y="40%" font-family="Verdana" font-size="35" fill="#ffffff" text-anchor="middle" id="nameText">
-    Hi... I am AKashRaj S an dedicated Data Scientist.
-  </text>
-  
-  <!-- Text for Greeting -->
-  <text x="50%" y="50%" font-family="Verdana" font-size="30" fill="#ffffff" text-anchor="middle" id="greetingText">
-    Hello! How are you doing? 👋
-  </text>
+# Hi, I'm Akashraj S👋🏾 👩🏾‍💻
 
-  <!-- Define CSS Animations -->
-  <style>
-    @keyframes typingAnimation {
-      from { visibility: hidden; }
-      to { visibility: visible; }
-    }
-
-    #nameText, #greetingText {
-      visibility: hidden;
-      animation: typingAnimation 1.5s forwards 0s;
-    }
-
-    #greetingText {
-      animation-delay: 1.5s;
-    }
-  </style>
-</svg>
-
+<img src="https://raw.githubusercontent.com/M0nica/M0nica/master/gh-header-image-cropped.png" alt="banner that says Monica Powell - software engineer, content creator and community organizer alongside a cartoon illustration of Monica">
 
 ### :space_invader: &nbsp;About Me
 
