@@ -1,4 +1,4 @@
-<img src="images/header.svg" alt="Header Image">
+<img src="images/header.svg"></img>
 
 ### :space_invader: &nbsp;About Me
 
